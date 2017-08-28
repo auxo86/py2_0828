@@ -16,3 +16,5 @@ print [key + '/' + str(value) for key, value in sales.items()]
 sales.update({'iphone6':150, 'iphone6s':150})
 print [item for item in sales.items()]
 print sales
+
+print [item[0] + '/' + str(item[1]) for item in sales.items()]
