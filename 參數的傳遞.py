@@ -1,3 +1,7 @@
+# encoding=utf-8
+# 一個星號傳位置
+# 兩個星號傳key, value
+
 def sample_var_args_call(arg1, arg2, arg3):
     print '---'
     print arg1, arg2, arg3
